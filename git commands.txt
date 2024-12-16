@@ -8,3 +8,7 @@ git log --oneline --graph --decorate --all
 
 ///
 //git push origin main // to push to the remote
+
+//if the merge with production and main and the base between them is featur (not fast forward) then 
+go to the feature branch then merge once with main and the other with production then solve (the conflict) 
+then go the the production and merge with the featur or whatever you want ######
