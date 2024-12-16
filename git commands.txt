@@ -1,7 +1,7 @@
 
 // pull from remote
 git fetch origin
-git reset --hard origin/y
+git reset --hard origin/y 
 
 //
 git log --oneline --graph --decorate --all
@@ -12,3 +12,6 @@ git log --oneline --graph --decorate --all
 //if the merge with production and main and the base between them is featur (not fast forward) then 
 go to the feature branch then merge once with main and the other with production then solve (the conflict) 
 then go the the production and merge with the featur or whatever you want ######
+
+// git restore *--staged* main.cpp (no hard)
+//git restore main.cpp (yes simple)
