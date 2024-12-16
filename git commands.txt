@@ -5,3 +5,6 @@ git reset --hard origin/y
 
 //
 git log --oneline --graph --decorate --all
+
+///
+//git push origin main // to push to the remote
